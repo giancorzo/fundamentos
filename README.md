@@ -1,4 +1,5 @@
-fundamentos
-===========
+Fundamentos de Programación
+===========================
+Curso de Fundamentos de programación en Ruby, dictado en la Universidad UPC.
 
-Ejercicios de programación para el curso de programación
+El curso está dividido en semanas y en este repositorio almacenaremos los código que vayamos desarrollando en clase
