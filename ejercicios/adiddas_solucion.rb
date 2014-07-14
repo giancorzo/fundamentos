@@ -13,6 +13,16 @@
 # muestra como resultado el total de calorías consumidas por la persona
 
 def adiddas(actividad, tiempo)
+    calorias = 0
+    case (actividad)
+        when "caminata"
+            calorias = (150.0 / 10) * tiempo
+        when "bicicleta"
+            calorias = (200.0 / 20) * tiempo
+        when "baile"
+            calorias = (250.0 / 30) * tiempo
+    end
+    return calorias.round(2)
 end
 
 def validate(expected, value)    
