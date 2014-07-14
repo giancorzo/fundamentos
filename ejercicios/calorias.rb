@@ -22,9 +22,9 @@ def validate(expected, value)
 end
 
 def test_calorias
-  print validate(1195.2,calorias("dormir",12))
-  print validate(2592.0,calorias("reposo",40))
-  print validate(5976.0,calorias("dormir",60))
+  print validate(777.6,calorias("dormir",12))
+  print validate(3984.0,calorias("reposo",40))
+  print validate(3888.0,calorias("dormir",60))
 end
 
 def test
